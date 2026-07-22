@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Model weights
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Local inputs and scratch files
+data/
+scratch/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
